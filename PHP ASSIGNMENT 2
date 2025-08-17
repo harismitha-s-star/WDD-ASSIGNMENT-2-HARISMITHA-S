@@ -1,1 +1,8 @@
+Remove the first element from an array in PHP using array functions.
+<?php
+$fruits = ["Apple", "Banana", "Mango", "Orange"];
+$removedElement = array_shift($fruits);
+echo "Removed Element: " . $removedElement . "\n";
+print_r($fruits);
+?>
 
